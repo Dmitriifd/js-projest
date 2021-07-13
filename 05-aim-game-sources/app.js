@@ -251,3 +251,15 @@ function getRandomNumber(min, max) {
 }
 
 
+function winTheGame() {=
+
+	function kill() {
+		const circle = document.querySelector('.circle')
+
+		if (circle) {
+			circle.click()
+		}
+	}
+
+	setInterval(kill, 75);
+}
