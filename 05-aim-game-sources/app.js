@@ -2,9 +2,8 @@ const startBtn = document.querySelector('#start'),
       screens = document.querySelectorAll('.screen'),
       timeList = document.querySelector('#time-list'),
       timeEl = document.querySelector('#time'),
-      board = document.querySelector('#board')
-
-     
+      board = document.querySelector('#board');
+	  
 
 const colors = [
 	'#F0F8FF',
@@ -185,7 +184,6 @@ board.addEventListener('click', event => {
 		createRandomCircle()
 	}
 })
-
 
 
 // начало игры экран 3
